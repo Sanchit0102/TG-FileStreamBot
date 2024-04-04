@@ -70,7 +70,7 @@
 
 Press the below button to fast deploy to Heroku
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy)](https://heroku.com/deploy?template=https://github.com/Sanchit0102/TG-FileStreamBot)
 
 [Click Here](https://devcenter.heroku.com/articles/config-vars#using-the-heroku-dashboard) to know how to add / edit [environment variables](#required-vars) in Heroku.
 
