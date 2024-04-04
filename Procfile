@@ -1,2 +1,2 @@
-web: python -m 
+web: python -m WebStreamer
  
