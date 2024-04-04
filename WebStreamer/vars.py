@@ -10,13 +10,13 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(environ.get("API_ID"))
-    API_HASH = str(environ.get("API_HASH"))
-    BOT_TOKEN = str(environ.get("BOT_TOKEN"))
+    API_ID = int(environ.get("API_ID", 25833520))
+    API_HASH = str(environ.get("API_HASH", "7d012a6cbfabc2d0436d7a09d8362af7"))
+    BOT_TOKEN = str(environ.get("BOT_TOKEN", "7016777070:AAHiDAWQR_Q5h50cBW3DbnEci8lfCN1qkD4"))
     SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))  # 1 minte
-    WORKERS = int(environ.get("WORKERS", "6"))  # 6 workers = 6 commands at once
+    WORKERS = int(environ.get("WORKERS", "50"))  # 6 workers = 6 commands at once
     BIN_CHANNEL = int(
-        environ.get("BIN_CHANNEL", None)
+        environ.get("BIN_CHANNEL", '-1002016803498')
     )  # you NEED to use a CHANNEL when you're using MULTI_CLIENT
     PORT = int(environ.get("PORT", 8080))
     BIND_ADDRESS = str(environ.get("WEB_SERVER_BIND_ADDRESS", "0.0.0.0"))
